@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - A framework for building XML filters using the SAX API
 Summary(pl):	%{_pearname} - tworzenie filtrów XML za pomoc± API SAX
 Name:		php-pear-%{_pearname}
-Version:	0.1.0
+Version:	0.2.0
 Release:	1
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	8661db8e5a38dbcd3c78b3fad288b34d
+# Source0-md5:	4ffac60bff452749735fec325bd4470d
 URL:		http://pear.php.net/package/%{_pearname}/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
