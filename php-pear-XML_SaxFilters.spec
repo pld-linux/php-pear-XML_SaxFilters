@@ -4,7 +4,7 @@
 %define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_pearname} - A framework for building XML filters using the SAX API
-Summary(pl):	%{_pearname} - Tworzenie filtrów XML za pomoc± API SAX.
+Summary(pl):	%{_pearname} - tworzenie filtrów XML za pomoc± API SAX
 Name:		php-pear-%{_pearname}
 Version:	0.1.0
 Release:	1
@@ -44,16 +44,16 @@ This class has in PEAR status: %{_status}.
 
 %description -l pl
 XML_SaxFilters dostarcza podstawy do u¿ycia filtrów Sax w PHP.
-Originalny kod zosta³ opracowany przez Luisa Argerich'a i opublikowany
+Originalny kod zosta³ opracowany przez Luisa Argericha i opublikowany
 pod adresem
 http://phpxmlclasses.sourceforge.net/show_doc.php?class=class_sax_filters.html.
-Luis podda³ dyskusji sposób, w jaki SaxFilters dzia³aj±, u¿ywaj±c jako
-przyk³ad klas Sourceforge, w rozdziale 10 "PHP 4 XML" wydawnictwa
+Luis podda³ dyskusji sposób, w jaki dzia³aj± SaxFilters, u¿ywaj±c jako
+przyk³adu klas Sourceforge, w rozdziale 10 "PHP 4 XML" wydawnictwa
 Wrox. Luis zezwoli³ na modyfikacjê kodu i licencji tak, aby klasa ta
 mog³a zostaæ do³±czona do PEAR.
 
 Ta wersja Filtrów Sax wprowadza znacz±ce zmiany w stosunku do
-originalnego kodu Luisa (wsteczna zgodno¶æ nie zosta³a zachowana),
+oryginalnego kodu Luisa (wsteczna zgodno¶æ nie zosta³a zachowana),
 oddzielaj±c abstrakcyjne klasy od interfejsu, dostarczaj±c interfejsy
 do odczytu i zapisu danych oraz metody wspomagaj±ce rekursywne
 parsowanie dokumentów XML (na przyk³±d AbstractFilter::setParent())
