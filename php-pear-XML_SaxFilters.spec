@@ -57,7 +57,7 @@ Ta wersja Filtrów Sax wprowadza znacz±ce zmiany w stosunku do
 oryginalnego kodu Luisa (wsteczna zgodno¶æ nie zosta³a zachowana),
 oddzielaj±c abstrakcyjne klasy od interfejsu, dostarczaj±c interfejsy
 do odczytu i zapisu danych oraz metody wspomagaj±ce rekursywne
-parsowanie dokumentów XML (na przyk³±d AbstractFilter::setParent())
+parsowanie dokumentów XML (na przyk³ad AbstractFilter::setParent())
 dla dokumentów, których struktura mo¿e siê znacz±co ró¿niæ.
 
 Celem filtrowania Sax jest sprawienie, i¿ parsowanie dokumetnów bêdzie
