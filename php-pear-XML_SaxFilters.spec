@@ -41,7 +41,7 @@ filter which may in turn delegate events to another filter. In general
 it's possible to implement filters for a document which are as
 flexible and powerful as DOM.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 XML_SaxFilters dostarcza podstawy do u¿ycia filtrów Sax w PHP.
