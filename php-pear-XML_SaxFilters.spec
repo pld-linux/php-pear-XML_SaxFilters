@@ -12,7 +12,7 @@ License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	4ffac60bff452749735fec325bd4470d
-URL:		http://pear.php.net/package/%{_pearname}/
+URL:		http://pear.php.net/package/XML_SaxFilters/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
 BuildArch:	noarch
