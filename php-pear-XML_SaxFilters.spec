@@ -1,9 +1,10 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          XML
-%define         _subclass       SaxFilters
+%define		_class		XML
+%define		_subclass	SaxFilters
 %define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_pearname} - A framework for building XML filters using the SAX API
+
+Summary:	%{_pearname} - a framework for building XML filters using the SAX API
 Summary(pl):	%{_pearname} - tworzenie filtrów XML za pomoc± API SAX
 Name:		php-pear-%{_pearname}
 Version:	0.2.0
