@@ -14,6 +14,7 @@ Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	205e7ab8b5fcc63e131ad6c96f7aa09c
 URL:		http://pear.php.net/package/XML_SaxFilters/
+BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-common >= 3:4.1.0
 Requires:	php-pear
