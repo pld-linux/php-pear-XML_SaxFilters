@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - a framework for building XML filters using the SAX API
-Summary(pl.UTF-8):   %{_pearname} - tworzenie filtrów XML za pomocą API SAX
+Summary(pl.UTF-8):	%{_pearname} - tworzenie filtrów XML za pomocą API SAX
 Name:		php-pear-%{_pearname}
 Version:	0.3.0
 Release:	4
