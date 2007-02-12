@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - a framework for building XML filters using the SAX API
-Summary(pl):	%{_pearname} - tworzenie filtrów XML za pomoc± API SAX
+Summary(pl.UTF-8):   %{_pearname} - tworzenie filtrÃ³w XML za pomocÄ… API SAX
 Name:		php-pear-%{_pearname}
 Version:	0.3.0
 Release:	4
@@ -47,27 +47,27 @@ flexible and powerful as DOM.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-XML_SaxFilters dostarcza podstawy do u¿ycia filtrów Sax w PHP.
-Originalny kod zosta³ opracowany przez Luisa Argericha i opublikowany
+%description -l pl.UTF-8
+XML_SaxFilters dostarcza podstawy do uÅ¼ycia filtrÃ³w Sax w PHP.
+Originalny kod zostaÅ‚ opracowany przez Luisa Argericha i opublikowany
 pod adresem
 http://phpxmlclasses.sourceforge.net/show_doc.php?class=class_sax_filters.html.
-Luis podda³ dyskusji sposób, w jaki dzia³aj± SaxFilters, u¿ywaj±c jako
-przyk³adu klas Sourceforge, w rozdziale 10 "PHP 4 XML" wydawnictwa
-Wrox. Luis zezwoli³ na modyfikacjê kodu i licencji tak, aby klasa ta
-mog³a zostaæ do³±czona do PEAR.
+Luis poddaÅ‚ dyskusji sposÃ³b, w jaki dziaÅ‚ajÄ… SaxFilters, uÅ¼ywajÄ…c jako
+przykÅ‚adu klas Sourceforge, w rozdziale 10 "PHP 4 XML" wydawnictwa
+Wrox. Luis zezwoliÅ‚ na modyfikacjÄ™ kodu i licencji tak, aby klasa ta
+mogÅ‚a zostaÄ‡ doÅ‚Ä…czona do PEAR.
 
-Ta wersja Filtrów Sax wprowadza znacz±ce zmiany w stosunku do
-oryginalnego kodu Luisa (wsteczna zgodno¶æ nie zosta³a zachowana),
-oddzielaj±c abstrakcyjne klasy od interfejsu, dostarczaj±c interfejsy
-do odczytu i zapisu danych oraz metody wspomagaj±ce rekursywne
-parsowanie dokumentów XML (na przyk³ad AbstractFilter::setParent())
-dla dokumentów, których struktura mo¿e siê znacz±co ró¿niæ.
+Ta wersja FiltrÃ³w Sax wprowadza znaczÄ…ce zmiany w stosunku do
+oryginalnego kodu Luisa (wsteczna zgodnoÅ›Ä‡ nie zostaÅ‚a zachowana),
+oddzielajÄ…c abstrakcyjne klasy od interfejsu, dostarczajÄ…c interfejsy
+do odczytu i zapisu danych oraz metody wspomagajÄ…ce rekursywne
+parsowanie dokumentÃ³w XML (na przykÅ‚ad AbstractFilter::setParent())
+dla dokumentÃ³w, ktÃ³rych struktura moÅ¼e siÄ™ znaczÄ…co rÃ³Å¼niÄ‡.
 
-Celem filtrowania Sax jest sprawienie, i¿ parsowanie dokumetnów bêdzie
-modularne i ³atwe do zarz±dzania. Parser wysy³a zdarzenia to filtra
-dziecka, które z kolei mo¿e wys³aæ zdarzenia do innego filtra. Mo¿liwe
-jest zaimplementowanie filtrów, które bêd± tak elastyczne i potê¿ne
+Celem filtrowania Sax jest sprawienie, iÅ¼ parsowanie dokumetnÃ³w bÄ™dzie
+modularne i Å‚atwe do zarzÄ…dzania. Parser wysyÅ‚a zdarzenia to filtra
+dziecka, ktÃ³re z kolei moÅ¼e wysÅ‚aÄ‡ zdarzenia do innego filtra. MoÅ¼liwe
+jest zaimplementowanie filtrÃ³w, ktÃ³re bÄ™dÄ… tak elastyczne i potÄ™Å¼ne
 jak DOM.
 
 Ta klasa ma w PEAR status: %{_status}.
