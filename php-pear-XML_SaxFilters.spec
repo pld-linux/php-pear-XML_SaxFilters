@@ -1,6 +1,5 @@
 %define		_status		beta
 %define		_pearname	XML_SaxFilters
-%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - a framework for building XML filters using the SAX API
 Summary(pl.UTF-8):	%{_pearname} - tworzenie filtrów XML za pomocą API SAX
 Name:		php-pear-%{_pearname}
